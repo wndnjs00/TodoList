@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".activity.SplashActivity"> <!--리니어레이아웃은 orientation필수지정(일반적으로 vertical지정함)-->
+    tools:context=".activity.SplashActivity">
+    <!--리니어레이아웃은 orientation필수지정(일반적으로 vertical지정함)-->
 
 
     <ImageView
