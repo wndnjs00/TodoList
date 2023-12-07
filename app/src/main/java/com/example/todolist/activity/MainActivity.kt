@@ -28,6 +28,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate((layoutInflater)) //실제 activity_main.xml에 있는 리사이클러뷰를 연동
         setContentView(binding.root)
 
+//        //모바일 광고 SDK 초기화
+//        MobileAds.initialize(this) {}
+//        //하단 배너 광고 로드
+//        val adRequest = AdRequest.Builder().build()
+//        binding.adView.loadAd(adRequest)
+
         // 어뎁터 생성
         todoAdapter = TodoAdapter()
 
